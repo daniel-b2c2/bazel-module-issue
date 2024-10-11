@@ -3,8 +3,4 @@
   "extends": [
     "config:recommended"
   ],
-  "bazel-module": {
-     "fileMatch": ["(^|/)jfrog_deps\\.MODULE\\.bazel$"],
-     "enabled": true
-  }
 }

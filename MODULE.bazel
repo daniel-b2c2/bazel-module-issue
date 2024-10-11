@@ -4,5 +4,3 @@ maven.install(
         "com.google.protobuf:protobuf-java:3.21.8",
     ],
 )
-
-use_repo(maven, "jfrog")

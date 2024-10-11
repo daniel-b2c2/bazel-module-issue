@@ -1,6 +1,5 @@
 maven = use_extension("@rules_jvm_external//:extensions.bzl", "maven")
 maven.install(
-    name = "jfrog",
     artifacts = [
         "com.google.protobuf:protobuf-java:3.21.8",
     ],

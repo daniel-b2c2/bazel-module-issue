@@ -2,5 +2,5 @@
   "dependencyDashboard": true,
   "extends": [
     "config:recommended"
-  ],
+  ]
 }

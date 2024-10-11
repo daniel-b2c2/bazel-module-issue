@@ -4,6 +4,7 @@
     "config:recommended"
   ],
   "bazel-module": {
-     "fileMatch": ["(^|/)MODULE\\.bazel$", "(^|/)jfrog_deps\\.MODULE\\.bazel$"]
+     "fileMatch": ["(^|/)jfrog_deps\\.MODULE\\.bazel$"],
+     "enabled": true
   }
 }

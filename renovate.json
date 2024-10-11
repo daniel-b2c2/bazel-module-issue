@@ -2,5 +2,8 @@
   "dependencyDashboard": true,
   "extends": [
     "config:recommended"
-  ]
+  ],
+  "bazel-module": {
+     "fileMatch": ["(^|/)MODULE\\.bazel$", "(^|/)jfrog_deps\\.MODULE\\.bazel$"]
+  }
 }
